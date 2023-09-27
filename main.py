@@ -10,8 +10,6 @@ import numpy as np
 import time
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import StandardScaler
-from imblearn.over_sampling import RandomOverSampler
 from sklearn.model_selection import RandomizedSearchCV, train_test_split
 from scipy.stats import randint
 
